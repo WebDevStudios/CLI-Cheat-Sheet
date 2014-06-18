@@ -49,3 +49,8 @@ A good directory shortcut is `~` which references your home directory so `cd ~/D
 In OS X you can drag a folder from the finder onto the command line to get it's path, so typing `cd ` then dragging the folder would allow for an easy way to get to a specific folder without having to type out the whole thing. If you are using Mavericks you can also use [this trick](http://hints.macworld.com/article.php?story=20131025192702763).
 
 Many cli commands allow for autocompletion `cd` included press tab after typing a few letters and the command prompt will attempt to fill it in so typing `cd ~/Doc` then tab will autocomplete out to `cd ~/Documents/` you can repeat this to drill down into folders as well.
+
+Moving back to GUI
+----
+
+So you've gotten to an awesome folder or file but now you're scared you need GUI back. The `open` command in OS X allows you to open a file or folder like you would if you double clicked on it, so if you run it on a folder it will open finder at that location. If you run it on a file it will open the default program for that file type!
