@@ -1,7 +1,7 @@
 Moderate/Advanced Commands
 ====
 
-Welcome to the command line it is a wonderfull place!
+The somewhat scary crevices of the command line.
 
 Debugging
 ----
