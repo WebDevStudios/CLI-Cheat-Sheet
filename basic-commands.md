@@ -12,12 +12,14 @@ Command line also allows for easy managment of remote servers that don't have th
 
 Also using the mouse is slow!
 
-So every cli (command line interface) window is looking at a folder (or directory) on your computer.
+Please open a terminal window and try these commands to give a better idea of how each work!
+
+Every cli (command line interface) window is looking at a folder (or directory) on your computer.
 
 Where are you?
 ----
 
-`pwd` - will return the current directory you are looking at (print working directory). So if you are in your home folder in OS X it will return '/User/*your user name*/'.
+`pwd` - will return the current directory you are looking at (print working directory). So if you are in your home folder in OS X it will return '/User/_your-username_/'.
 
 What is here?
 ----
@@ -31,4 +33,19 @@ Often command line commands have optional tags and arguments you can give them. 
 * `ls -l` - Outputs the current directory contents in a more verbose list format.
 * `ls -a` - Outputs the current directory contents including hidden files.
 
-You can combine most single letter tags by just listing them one after the other with only a single dash before all of them e.g.
+You can combine most single letter tags by just listing them one after the other with only a single dash before all of them e.g. `ls -la` which is a common command allowing you to see a lot of useful information about the current directory including it's hidden files.
+
+How do I go somewhere else?
+----
+
+`cd` - Change directory, will go to a relative or absolute path directory.
+
+To go to a absolute directory include a leading slash like `cd \etc\` will take you to the etc folder in the root of your drive. A relative path is one that starts with the name of a relative folder so `cd Desktop` will open up your desktop folder if the command line is currently in your home.
+
+### Moving around more quickly
+
+A good directory shortcut is `~` which references your home directory so `cd ~/Documents` will take you to your Documents folder from anywhere.
+
+In OS X you can drag a folder from the finder onto the command line to get it's path, so typing `cd ` then dragging the folder would allow for an easy way to get to a specific folder without having to type out the whole thing. If you are using Mavericks you can also use [this trick](http://hints.macworld.com/article.php?story=20131025192702763).
+
+Many cli commands allow for autocompletion `cd` included press tab after typing a few letters and the command prompt will attempt to fill it in so typing `cd ~/Doc` then tab will autocomplete out to `cd ~/Documents/` you can repeat this to drill down into folders as well.
