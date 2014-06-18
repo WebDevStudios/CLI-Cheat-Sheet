@@ -30,8 +30,8 @@ Often command line commands have optional tags and arguments you can give them. 
 
 `ls` has two commonly used single letter tags:
 
-* `ls -l` - Outputs the current directory contents in a more verbose list format.
-* `ls -a` - Outputs the current directory contents including hidden files.
+* `ls -l` - Outputs the current directory contents in a more verbose list format (Generally easier to read).
+* `ls -a` - Same format as above, outputs the current directory contents but includes hidden files.
 
 You can combine most single letter tags by just listing them one after the other with only a single dash before all of them e.g. `ls -la` which is a common command allowing you to see a lot of useful information about the current directory including it's hidden files.
 
