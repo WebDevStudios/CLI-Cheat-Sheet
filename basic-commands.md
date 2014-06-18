@@ -55,6 +55,17 @@ Moving back to GUI
 
 So you've gotten to an awesome folder or file but now you're scared you need GUI back. The `open` command in OS X allows you to open a file or folder like you would if you double clicked on it, so if you run it on a folder it will open finder at that location. If you run it on a file it will open the default program for that file type!
 
+Working with files
+---
+`touch name-of-file.txt` - This creates a blank file named and located in the first argument. To create file in a sub directory, `touch sub-dir/name-of-file.txt`.
+
+`open name-of-file.txt` - Will open specified file in whatever default application is set for the file type.
+
+`mv name-of-file.txt sub-dir/name-of-file.txt` - Moves a file to a new location, so in our case, moves the `name-of-file.txt` file to the `sub-dir` sub directory. The first argument is the actual path/name of the file to be moved, and the second argument is the desired destination path/name. This also works to rename a file: `mv name-of-file.txt new-name-of-file.txt`.
+
+`mkdir new-folder` - Makes a directory (folder) in the specified path/name. In our case, make a new folder called `new-folder` in the current directory. To make a new folder in a sub-folder, the same rules apply: `mkdir sub-dir/new-folder`.
+
+
 More Resources
 ---
 
