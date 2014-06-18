@@ -24,4 +24,6 @@ The Basics
 
 `grunt` - Will run any tasks set up in your Gruntfile.js
 
-`grunt watch` - Will continuously watch your directory to dynamically run `watch` tasks (defined in Gruntfile.js) as files are modified.
+`grunt _command_' - Will run any tasks specified in the Gruntfile.js so something like `grunt sass` will run the sass task once and then exit out.
+
+`grunt watch` - Similarly will continuously watch your directory to dynamically run `watch` tasks (defined in Gruntfile.js) as files are modified.
