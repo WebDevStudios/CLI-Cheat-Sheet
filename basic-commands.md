@@ -40,7 +40,7 @@ How do I go somewhere else?
 
 `cd` - Change directory, will go to a relative or absolute path directory.
 
-To go to a absolute directory include a leading slash like `cd \etc\` will take you to the etc folder in the root of your drive. A relative path is one that starts with the name of a relative folder so `cd Desktop` will open up your desktop folder if the command line is currently in your home.
+To go to a absolute directory include a leading slash like `cd /etc/` will take you to the etc folder in the root of your drive. A relative path is one that starts with the name of a relative folder so `cd Desktop` will open up your desktop folder if the command line is currently in your home.
 
 ### Moving around more quickly
 
