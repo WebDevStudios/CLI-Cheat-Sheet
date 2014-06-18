@@ -54,3 +54,9 @@ Moving back to GUI
 ----
 
 So you've gotten to an awesome folder or file but now you're scared you need GUI back. The `open` command in OS X allows you to open a file or folder like you would if you double clicked on it, so if you run it on a folder it will open finder at that location. If you run it on a file it will open the default program for that file type!
+
+More Resources
+---
+
+* [Lifehacker overview](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
+* [Treehouse tutorial](http://blog.teamtreehouse.com/command-line-basics)
