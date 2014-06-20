@@ -42,4 +42,8 @@ Commit History
 
 `git log --oneline` - Show all commits, starting with newest. The oneline flag cleans the entries up a bit to display each commit on one line.
 
+`git log -p <file>` - Show changes over time for a specific file.
+
+`git blame <file>` - Who changed what and in <file>
+
 
