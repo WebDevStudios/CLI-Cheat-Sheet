@@ -2,11 +2,12 @@ Git Commands
 ====
 
 No more GUI! Git CLI FTW!
+Much credit for this file goes to the [incredible resource provided by Tower](http://www.git-tower.com/blog/command-line-cheat-sheet-detail/).
 
 Working with Repos
 ----
 
-`git clone git@github.com:WebDevStudios/Custom-Metaboxes-and-Fields-for-WordPress.git cmb` - Will clone a remote repo (and add the repo url as a remote source) to the specified folder argument (2nd argument). If no 2nd argument is passed, it will default to the name of the repo, so in our case it would have been `Custom-Metaboxes-and-Fields-for-WordPress`.
+`git init` - Create a new local repository
 
 Checking what's up
 ----
@@ -18,10 +19,26 @@ Checking what's up
 Committing
 ----
 
-`git add filename` - Stages a file to be committed can include directories or files.
+`git add .` - Add all current changes to the staging area, ready for the next commit.
 
-`git commit -m 'My commit message'` - Commits currently staged changes with the specified message.  
+`git add -p file.txt` - Add some changes in file.txt to the staging area, ready for the next commit.
+
+`git commit -a` - Commit all local changes in tracked files to the staging area, ready for the next commit.
+
+`git commit` - Commit previously staged changes.
+
+`git commit filename.txt -m 'My commit message'` - Commits changes to the `filename.txt` file.
 
 > * The `-m` flag expects to be followed by a commit message surrounded by quotes.
 > * Single quotes if you want to use quotation marks in your message, or double quotes if you want to use apostrophes in your message.
-> * If you want to commit everything in the repo without staging it first (_dangerous_), `git commit -a -m 'message'`.
+> * If you want to commit everything in a sub directory, `git commit sub-dir -m 'message'`.
+> * If you want to commit everything in the repo, `git commit -a -m 'message'`.
+
+`git commit --amend` - Change the last commit. *Don‘t amend published commits!!*
+
+Commit History
+----
+
+`git log --oneline` - Show all commits, starting with newest. The oneline flag cleans the entries up a bit to display each commit on one line.
+
+
