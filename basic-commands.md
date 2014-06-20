@@ -69,6 +69,8 @@ Working with files
 
 `mkdir new-folder` - Makes a directory (folder) in the specified path/name. In our case, make a new folder called `new-folder` in the current directory. To make a new folder in a sub-folder, the same rules apply: `mkdir sub-dir/new-folder`.
 
+`cat name-of-file.txt` - Display contents of a file in the command line.
+
 
 More Resources
 ---
