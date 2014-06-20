@@ -17,3 +17,8 @@ Copy/Paste
 You can check if the content is there by using the `pbpaste` command.
 
 `pbpaste` - Will paste what's on your clipboard to the command line. This is different than standard pasting, which will cause the command line to try to execute commands.
+
+Find/Replace
+----
+
+`find . -name '*.php' -exec sed -i "" 's/Original/Replacement/g' {} \;` - Finds the string "Original" and replaces it with "Replacement" in all .php files within the directory.
