@@ -32,7 +32,8 @@ Committing
 > * The `-m` flag expects to be followed by a commit message surrounded by quotes.
 > * Single quotes if you want to use quotation marks in your message, or double quotes if you want to use apostrophes in your message.
 > * If you want to commit everything in a sub directory, `git commit sub-dir -m 'message'`.
-> * If you want to commit everything in the repo, `git commit -a -m 'message'`.
+> * If you want to commit everything in the repo without staging it first (_dangerous_), `git commit -a -m 'message'`.
+
 
 `git commit --amend` - Change the last commit. *Don‘t amend published commits!!*
 
