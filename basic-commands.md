@@ -57,6 +57,8 @@ So you've gotten to an awesome folder or file but now you're scared you need GUI
 
 The `open` command in OS X allows you to open a file or folder like you would if you double clicked on it, so if you run it on a folder it will open finder at that location. If you run it on a file it will open the default program for that file type!
 
+`open` doesn't work in non OS X operating systems or may have alternate functionality.
+
 Working with files
 ---
 `touch name-of-file.txt` - This creates a blank file named and located in the first argument. To create file in a sub directory, `touch sub-dir/name-of-file.txt`.
