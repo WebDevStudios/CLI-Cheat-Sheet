@@ -19,7 +19,7 @@ Every cli (command line interface) window is looking at a folder (or directory) 
 Where are you?
 ----
 
-`pwd` - will return the current directory you are looking at (print working directory). So if you are in your home folder in OS X it will return '/User/_your-username_/'.
+`pwd` - will return the current directory you are looking at (print working directory). So if you are in your home folder in OS X it will return `/User/<your-username>/`.
 
 What is here?
 ----
@@ -53,7 +53,7 @@ Many cli commands allow for autocompletion `cd` included press tab after typing 
 Moving back to GUI
 ----
 
-So you've gotten to an awesome folder or file but now you're scared you need GUI back.
+So you've gotten to an awesome folder or file but now you're scared and you need the GUI back.
 
 The `open` command in OS X allows you to open a file or folder like you would if you double clicked on it, so if you run it on a folder it will open finder at that location. If you run it on a file it will open the default program for that file type!
 
@@ -61,19 +61,21 @@ The `open` command in OS X allows you to open a file or folder like you would if
 
 Working with files
 ---
-`touch name-of-file.txt` - This creates a blank file named and located in the first argument. To create file in a sub directory, `touch sub-dir/name-of-file.txt`.
+`touch <filename>` - This creates a blank file named and located in the first argument. To create file in a sub directory, `touch <sub-dir>/<filename>`.
 
-`rm name-of-file.txt` - Remove the specified file. Two commonly use options are the, `-r` option which allows you to remove folders, and the `-f` option which forces the remove command to remove files that it would normally ask to confirm deletion. Be carefull! The `rm` command skips the trash can so you can't recover files removed this way.
+`rm <filename>` - Remove the specified file. Two commonly use options are the, `-r` option which allows you to remove folders, and the `-f` option which forces the remove command to remove files that it would normally ask to confirm deletion. Be carefull! The `rm` command skips the trash can so you can't recover files removed this way.
 
-`mv name-of-file.txt sub-dir/name-of-file.txt` - Moves a file to a new location, so in our case, moves the `name-of-file.txt` file to the `sub-dir` sub directory. The first argument is the actual path/name of the file to be moved, and the second argument is the desired destination path/name. This also works to rename a file: `mv name-of-file.txt new-name-of-file.txt`.
+`mv <filename> <sub-dir>/<filename>` - Moves a file to a new location, so in our case, moves the `<filename>` file to the `<sub-dir>` sub directory. The first argument is the actual path/name of the file to be moved, and the second argument is the desired destination path/name. This also works to rename a file: `mv <filename> <new-filename>`.
 
-`mkdir new-folder` - Makes a directory (folder) in the specified path/name. In our case, make a new folder called `new-folder` in the current directory. To make a new folder in a sub-folder, the same rules apply: `mkdir sub-dir/new-folder`.
+`mkdir <new-folder>` - Makes a directory (folder) in the specified path/name. To make a new folder in a sub-folder, the same rules apply: `mkdir <sub-dir>/<new-folder>`.
 
-`cat name-of-file.txt` - Display contents of a file in the command line.
+`cat <filename>` - Display contents of a file in the command line.
 
 Who are you?
 ---
-You can switch users in the command line. Say you need to get a file in Sally's home directory but you're logged in aa `osx-user`. You can switch users with `su sally`, you'll have to know her password, of course. You can `su` to temporarily take on the identity of another user. Sometimes all that user switching gets confusing, in case you forget you can always find out who you are by typing `whoami`. If you used `su` to switch into another user's account, you can use `exit` to switch back to your original account.
+
+`su <username>` - Switch Username.
+> You can switch users in the command line. Say you need to get a file in Sally's home directory but you're logged in as `osx-user`. You can switch users with `su sally`, you'll have to know her password, of course. You can `su` to temporarily take on the identity of another user. Sometimes all that user switching gets confusing, in case you forget you can always find out who you are by typing `whoami`. If you used `su` to switch into another user's account, you can use `exit` to switch back to your original account.
 
 More Resources
 ---
