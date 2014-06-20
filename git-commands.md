@@ -44,6 +44,6 @@ Commit History
 
 `git log -p <file>` - Show changes over time for a specific file.
 
-`git blame <file>` - Who changed what and in <file>
+`git blame <file>` - Who changed what and in file.
 
 
