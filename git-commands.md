@@ -46,4 +46,11 @@ Commit History
 
 `git blame <file>` - Who changed what and in what file.
 
+Branching Out
+----
 
+`git checkout branch-name` - Allows you to switch between git branches, adding the `-b` flag creates the branch you are switching to if it doesn't already exist. You can also specify specific commit hashes instead of branch names.
+
+If you want to checkout a specific file you can `git checkout branch-name-or-commit file-path` which is powerful as it allows you to selectively merge in files or rewind changes.
+
+`git branch` without any parameters will list all current branches. You can also use it to create a new branch with `git branch new-branch-name` which will create the branch but not check it out (which is why `git checkout -b new-branch-name` is so useful).
