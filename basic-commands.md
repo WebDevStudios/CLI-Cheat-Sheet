@@ -73,7 +73,7 @@ Working with files
 
 Who are you?
 ---
-You can switch users in the command line. Say you need to get a file in Sally's home directory but you're logged in a `osx-user`. You can switch users with `su sally`, you'll have to know her password, of course. You can `su` to temporarily take on the identity of another user. Sometimes all that user switching gets confusing, in case you forget you can always find out who you are by typing `whoami`.
+You can switch users in the command line. Say you need to get a file in Sally's home directory but you're logged in aa `osx-user`. You can switch users with `su sally`, you'll have to know her password, of course. You can `su` to temporarily take on the identity of another user. Sometimes all that user switching gets confusing, in case you forget you can always find out who you are by typing `whoami`. If you used `su` to switch into another user's account, you can use `exit` to switch back to your original account.
 
 More Resources
 ---
