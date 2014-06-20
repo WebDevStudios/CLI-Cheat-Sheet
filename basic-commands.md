@@ -71,6 +71,9 @@ Working with files
 
 `cat name-of-file.txt` - Display contents of a file in the command line.
 
+Who are you?
+---
+You can switch users in the command line. Say you need to get a file in Sally's home directory but you're logged in a `osx-user`. You can switch users with `su sally`, you'll have to know her password, of course. You can `su` to temporarily take on the identity of another user. Sometimes all that user switching gets confusing, in case you forget you can always find out who you are by typing `whoami`.
 
 More Resources
 ---
