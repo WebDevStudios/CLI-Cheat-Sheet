@@ -1,7 +1,14 @@
 Server Commands
 ====
 
+One big advantage of the command line is the ability to manage remote servers easily. Most web servers do not have a visual desktop to access, and while many have built in control panels, you can have greater control by connecting to them through the command line.
+
 There are several distrobutions of Linux, this cheat-sheet will focus on Ubuntu.
+
+Connecting
+----
+
+`ssh` (secure shell) allows you to connect to a remote server using the command line. The standard usage is `ssh username@server-address.net` where username is your username on the remote server amd server-address.net is the URL or IP of the remove server.
 
 Package Managment
 ----
