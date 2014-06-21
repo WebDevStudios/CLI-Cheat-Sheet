@@ -2,7 +2,7 @@ Git Commands
 ====
 
 No more GUI! Git CLI FTW!
-Much credit for this file goes to the [incredible resource provided by Tower](http://www.git-tower.com/blog/command-line-cheat-sheet-detail/).
+Much credit for this file goes to the [incredible resource provided by Tower](http://www.git-tower.com/blog/git-cheat-sheet-detail/).
 
 Let's get started
 ----
