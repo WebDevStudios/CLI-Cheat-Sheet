@@ -27,11 +27,11 @@ Find/Replace
 Commands
 ----
 
-`<command> > <filename>` - Direct the output of `<command>` into `<filename>`.
+`<command> > <filename>` - Direct the output of `<command>` into `<filename>` replacing any current contents.
 
 `<command> >> <filename>` - Append the output of `<command>` to `<filename>`.
 
-`<command1> | <command2>` - Direct the output of `<command1>` to `<command2>`.
+`<command1> | <command2>` - Direct the output of `<command1>` to `<command2>`. For instance, if you want to copy the result of a command such as `pwd` to your clipboard using the handy `pbcopy` command from above you could do `pwd | pbcopy`, which would put your current directory into your clipboard!
 
 `clear` - Clear the command line window.
 
