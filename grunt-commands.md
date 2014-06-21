@@ -24,6 +24,6 @@ The Basics
 
 `grunt` - Will run the default task set up in your Gruntfile.js (same as `grunt default`).
 
-`grunt {taskname}` - Will run a task specified in the Gruntfile.js so something like `grunt sass` will run the Sass task once and then exit out.
+`grunt <taskname>` - Will run a task specified in the Gruntfile.js so something like `grunt sass` will run the Sass task once and then exit out.
 
 `grunt watch` - Similarly will continuously watch your directory to dynamically run `watch` tasks (defined in Gruntfile.js) as files are modified.
