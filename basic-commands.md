@@ -44,7 +44,7 @@ To go to a absolute directory include a leading slash like `cd /etc/` will take 
 
 ### Moving around more quickly
 
-A good directory shortcut is `~` which references your home directory so `cd ~/Documents` will take you to your Documents folder from anywhere.
+A good directory shortcut is `~` which references your home directory so `cd ~/Documents` will take you to your Documents folder from anywhere. Another shortcut is using a `..` as a placeholder to indicate you want to move up a folder. If you're in `~/Document/Work/Web` and type `cd ..`, you'll then be in `~/Document/Work`.
 
 In OS X you can drag a folder from the finder onto the command line to get it's path, so typing `cd ` then dragging the folder would allow for an easy way to get to a specific folder without having to type out the whole thing. If you are using Mavericks you can also use [this trick](http://hints.macworld.com/article.php?story=20131025192702763).
 
@@ -60,16 +60,22 @@ The `open` command in OS X allows you to open a file or folder like you would if
 `open` doesn't work in non OS X operating systems or may have alternate functionality.
 
 Working with files
----
+----
+
 `touch <filename>` - This creates a blank file named and located in the first argument. To create file in a sub directory, `touch <sub-dir>/<filename>`.
 
 `rm <filename>` - Remove the specified file. Two commonly use options are the, `-r` option which allows you to remove folders, and the `-f` option which forces the remove command to remove files that it would normally ask to confirm deletion. Be carefull! The `rm` command skips the trash can so you can't recover files removed this way.
 
 `mv <filename> <sub-dir>/<filename>` - Moves a file to a new location, so in our case, moves the `<filename>` file to the `<sub-dir>` sub directory. The first argument is the actual path/name of the file to be moved, and the second argument is the desired destination path/name. This also works to rename a file: `mv <filename> <new-filename>`.
 
+`cp <filename> <directory>` - Copy `<filename>` to `<directory>` (possibly
+overwriting an existing file).
+
+`cp -r <directory1> <directory2>` - Copy <directory1> and its contents to <directory2> (possibly overwriting files in an existing directory).
+
 `mkdir <new-folder>` - Makes a directory (folder) in the specified path/name. To make a new folder in a sub-folder, the same rules apply: `mkdir <sub-dir>/<new-folder>`.
 
-`cat <filename>` - Display contents of a file in the command line.
+`cat <filename>` - Output the contents of `<filename>` in the command line.
 
 Who are you?
 ---
