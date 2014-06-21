@@ -2,7 +2,7 @@ Moderate/Advanced Commands
 ====
 
 The somewhat scary crevices of the command line.
-Credit for many of the command documentation in this file goes to the [incredible resource provided by Tower](http://www.git-tower.com/blog/command-line-cheat-sheet-detail/).
+Credit for the documentation of many of the commands in this file goes to the [incredible resource provided by Tower](http://www.git-tower.com/blog/command-line-cheat-sheet-detail/).
 
 
 Debugging
