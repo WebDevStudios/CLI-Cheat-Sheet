@@ -2,6 +2,8 @@ Moderate/Advanced Commands
 ====
 
 The somewhat scary crevices of the command line.
+Credit for many of the command documentation in this file goes to the [incredible resource provided by Tower](http://www.git-tower.com/blog/command-line-cheat-sheet-detail/).
+
 
 Debugging
 ----
@@ -13,12 +15,57 @@ Debugging
 Copy/Paste
 ----
 
-`pbcopy < file.txt` - Will copy all content from "file.txt" directly to your clipboard.
-You can check if the content is there by using the `pbpaste` command.
+`pbcopy < <filename>` - Will copy all content from `<filename>` directly to your clipboard. You can check if the content is there by using the `pbpaste` command.
 
 `pbpaste` - Will paste what's on your clipboard to the command line. This is different than standard pasting, which will cause the command line to try to execute commands.
 
 Find/Replace
 ----
 
-`find . -name '*.php' -exec sed -i "" 's/Original/Replacement/g' {} \;` - Finds the string "Original" and replaces it with "Replacement" in all .php files within the directory.
+`find . -name '*.<ext>' -exec sed -i "" 's/<original>/<replacement>/g' {} \;` - Finds the string `<original>` and replaces it with `<replacement>` in all `<ext>` files within the directory.
+
+Commands
+----
+
+`<command> > <filename>` - Direct the output of `<command>` into `<filename>`.
+
+`<command> >> <filename>` - Append the output of `<command>` to `<filename>`.
+
+`<command1> | <command2>` - Direct the output of `<command1>` to `<command2>`.
+
+`clear` - Clear the command line window.
+
+
+Permissions
+----
+
+`chmod 755 <filename>` - Change permissions of `<filename>` to 755.
+
+`chmod -R 600 <directory-name>` - Change permissions of `<directory-name>` (and
+its contents) to 600.
+
+`chown <user>:<group> <filename>` - Change ownership of `<filename>` to `<user>` and `<group>` (add -R to include a directory’s contents).
+
+
+Search
+----
+
+`find <dir-name> -name "<filename>"` - Find all files named `<filename>` inside `<dir-name>` (use wildcards [\*] to search for parts of filenames, e.g. "file.*").
+
+`grep "<text>" <filename>` - Output all occurrences of `<text>` inside `<filename>` (add -i for case-insensitivity).
+
+`grep -rl "<text>" <dir-name>` - Search for all files containing `<text>` inside `<dir-name>`.
+
+
+Network
+----
+
+`ping <host>` - Ping `<host>` and display status.
+
+`whois <domain>` - Output whois information for `<domain>`.
+
+`curl -O <url/to/file>` - Download `<file>` (via HTTP[S] or FTP).
+
+`ssh <username>@<host>` - Establish an SSH connection to `<host>` with user `<username>`.
+
+`scp <file> <user>@<host>:/remote/path` - Copy `<file>` to a remote `<host>`.
