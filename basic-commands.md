@@ -66,9 +66,9 @@ Working with files and folders
 
 `rm <filename>` - Remove the specified file. Two commonly use options are the, `-r` option which allows you to remove folders, and the `-f` option which forces the remove command to remove files that it would normally ask to confirm deletion. Be carefull! The `rm` command skips the trash can so you can't recover files removed this way.
 
-'rm -R <foldername>' - Delete folder, any files it contains, any sub-folders it contains, and any files or folders in those sub-folders, all the way down. This deletion is final.
+`rm -R <foldername>` - Delete folder, any files it contains, any sub-folders it contains, and any files or folders in those sub-folders, all the way down. This deletion is final.
 
-'rm -iR <foldername>' - Confirm the deletion of each item.
+`rm -iR <foldername>` - Confirm the deletion of each item.
 
 `mv <filename> <sub-dir>/<filename>` - Moves a file to a new location, so in our case, moves the `<filename>` file to the `<sub-dir>` sub directory. The first argument is the actual path/name of the file to be moved, and the second argument is the desired destination path/name. This also works to rename a file: `mv <filename> <new-filename>`.
 
