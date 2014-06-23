@@ -12,12 +12,14 @@ Debugging
 
 `ctrl-c` - MAKE IT STOP! This will generally stop most commands in the middle of execution.
 
-Copy/Paste
+Copy/Paste (OSX only\*)
 ----
 
 `pbcopy < <filename>` - Will copy all content from `<filename>` directly to your clipboard. You can check if the content is there by using the `pbpaste` command.
 
 `pbpaste` - Will paste what's on your clipboard to the command line. This is different than standard pasting, which will cause the command line to try to execute commands.
+
+\* Doesn't work in non OS X operating systems or may have alternate functionality.
 
 Find/Replace
 ----
