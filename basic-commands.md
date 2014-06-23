@@ -59,12 +59,16 @@ The `open` command in OS X allows you to open a file or folder like you would if
 
 `open` doesn't work in non OS X operating systems or may have alternate functionality.
 
-Working with files
+Working with files and folders
 ----
 
 `touch <filename>` - This creates a blank file named and located in the first argument. To create file in a sub directory, `touch <sub-dir>/<filename>`.
 
 `rm <filename>` - Remove the specified file. Two commonly use options are the, `-r` option which allows you to remove folders, and the `-f` option which forces the remove command to remove files that it would normally ask to confirm deletion. Be carefull! The `rm` command skips the trash can so you can't recover files removed this way.
+
+'rm -R <foldername>' - Delete folder, any files it contains, any sub-folders it contains, and any files or folders in those sub-folders, all the way down. This deletion is final.
+
+'rm -iR <foldername>' - Confirm the deletion of each item.
 
 `mv <filename> <sub-dir>/<filename>` - Moves a file to a new location, so in our case, moves the `<filename>` file to the `<sub-dir>` sub directory. The first argument is the actual path/name of the file to be moved, and the second argument is the desired destination path/name. This also works to rename a file: `mv <filename> <new-filename>`.
 
