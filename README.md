@@ -8,3 +8,5 @@ Included in this repo is several files separated by command type. Look at the fi
 * Grunt Commands: [grunt-commands.md](https://github.com/WebDevStudios/CLI-Cheat-Sheet/blob/master/grunt-commands.md)
 * Server Commands: [server-commands.md](https://github.com/WebDevStudios/CLI-Cheat-Sheet/blob/master/server-commands.md)
 * Moderate/Advanced Commands: [moderate-advanced-commands.md](https://github.com/WebDevStudios/CLI-Cheat-Sheet/blob/master/moderate-advanced-commands.md)
+
+If you see any incorrect information, please submit a PR, or even open an issue. Thanks!
