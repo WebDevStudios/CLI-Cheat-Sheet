@@ -78,6 +78,8 @@ As evidenced by the popularity of remote repo hosting services (hello Github!), 
 
 `git fetch <remote>` - Download all changes from `<remote>`, but don‘t integrate into HEAD.
 
+`git fetch -v --dry-run` - Safe way to check if any updates were done on a `<remote>` branch.
+
 `git pull <remote> <branch-name>` - Download changes and directly merge/integrate.
 
 `git push <remote> <branch-name>` - Publish local changes to the remote repo.
