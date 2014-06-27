@@ -8,8 +8,11 @@ Quick start
 ----
 
 `git pull --rebase`
-`git add path/to/file`
+
+`git add .`
+
 `git commit -m "commit message"`
+
 `git push`
 
 
