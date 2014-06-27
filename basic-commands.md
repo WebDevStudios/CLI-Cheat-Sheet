@@ -1,7 +1,7 @@
 Basic Commands
 ====
 
-Welcome to the command line it is a wonderfull place!
+Welcome to the command line it is a wonderful place!
 
 The Very Basics
 ----
@@ -14,12 +14,12 @@ Also using the mouse is slow!
 
 Please open a terminal window and try these commands to give a better idea of how each work!
 
-Every cli (command line interface) window is looking at a folder (or directory) on your computer.
+Every CLI (command line interface) window is looking at a folder (or directory) on your computer.
 
 Where are you?
 ----
 
-`pwd` - will return the current directory you are looking at (print working directory). So if you are in your home folder in OS X it will return `/User/<your-username>/`.
+`pwd` - Print working directory, will return the current directory you are looking at. So if you are in your home folder in OS X it will return `/User/<your-username>/`.
 
 What is here?
 ----
@@ -48,14 +48,14 @@ A good directory shortcut is `~` which references your home directory so `cd ~/D
 
 In OS X you can drag a folder from the finder onto the command line to get it's path, so typing `cd ` then dragging the folder would allow for an easy way to get to a specific folder without having to type out the whole thing. If you are using Mavericks you can also use [this trick](http://hints.macworld.com/article.php?story=20131025192702763).
 
-Many cli commands allow for autocompletion `cd` included press tab after typing a few letters and the command prompt will attempt to fill it in so typing `cd ~/Doc` then tab will autocomplete out to `cd ~/Documents/` you can repeat this to drill down into folders as well.
+Many CLI commands allow for autocompletion `cd` included press tab after typing a few letters and the command prompt will attempt to fill it in so typing `cd ~/Doc` then tab will autocomplete out to `cd ~/Documents/` you can repeat this to drill down into folders as well.
 
 Moving back to GUI
 ----
 
 So you've gotten to an awesome folder or file but now you're scared and you need the GUI back.
 
-The `open` command in OS X allows you to open a file or folder like you would if you double clicked on it, so if you run it on a folder it will open finder at that location. If you run it on a file it will open the default program for that file type!
+The `open` command in OS X allows you to open a file or folder like you would if you double CLI on it, so if you run it on a folder it will open finder at that location. If you run it on a file it will open the default program for that file type!
 
 `open` doesn't work in non OS X operating systems or may have alternate functionality.
 
