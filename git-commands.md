@@ -4,6 +4,15 @@ Git Commands
 No more GUI! Git CLI FTW!
 Much credit for this file goes to the [incredible resource provided by Tower](http://www.git-tower.com/blog/git-cheat-sheet-detail/).
 
+Quick start
+----
+
+`git pull --rebase`
+`git add path/to/file`
+`git commit -m "commit message"`
+`git push`
+
+
 Let's get started
 ----
 
