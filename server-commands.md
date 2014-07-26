@@ -10,6 +10,8 @@ Connecting
 
 `ssh` (secure shell) allows you to connect to a remote server using the command line. The standard usage is `ssh username@server-address.net` where username is your username on the remote server amd server-address.net is the URL or IP of the remove server.
 
+SSH has many powerful features, such as unique keys per remote server you connect to (more secure) and the ability to set default configuration on a per server basis. Read the [SSH Management](ssh-management.md) page to learn how to take full control over your SSH connections.
+
 Package Managment
 ----
 
