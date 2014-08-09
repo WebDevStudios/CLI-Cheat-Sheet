@@ -81,6 +81,9 @@ overwriting an existing file).
 
 `cat <filename>` - Output the contents of `<filename>` in the command line.
 
+`defaults write com.apple.finder AppleShowAllFiles TRUE` - Show Mac OS X system files that starts with a dot (ex: .htaccess). Hide the system files by executing the same command, but set `TRUE` to `FALSE`. Enter `killall Finder` to refresh the Finder.
+
+
 Who are you?
 ---
 
