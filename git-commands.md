@@ -63,6 +63,8 @@ If you want to checkout a specific file you can `git checkout <branch-name-or-co
 
 `git branch -d <branch-name>` - Delete a local branch.
 
+`git push origin --delete <branch-name>` - Delete a remote branch.
+
 `git tag <tag-name>` - Mark the current commit with a tag.
 
 Phoning Home
