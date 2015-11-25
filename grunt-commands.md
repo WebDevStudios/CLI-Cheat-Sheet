@@ -12,7 +12,7 @@ Grunt is not only a weird noise you make when attempting to do something physica
 Installing Grunt
 ----
 
-`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"` - Install Homebrew. Homebrew is a handy package manager for OSX.
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` - Install Homebrew. Homebrew is a handy package manager for OSX.
 
 `brew install node` - A Homebrew command that will install Node.js and NPM (Node Package Manager - you guessed it, a handy package manager for Node.js) to OSX.
 
