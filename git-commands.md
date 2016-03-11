@@ -146,3 +146,7 @@ Tips and Tricks
 
 ``rm -rf `git ls-files --other --exclude-standard` `` - Remove untracked files (use caution)
 
+`git log -G "<search-string>" --pretty=format:"%C(yellow)%h %Creset%s %Cgreen(%cr) %Cblue[%cn - %ce]" --decorate` - Search commits for a string or code
+
+The following snippet is handy if you're dealing with a monolithic repo with many branches and submodules:  
+`git checkout <branch-name> && rm -rf `git ls-files --other --exclude-standard` && git submodule update --init --recursive` - Reset-checkout.. checks out branch, removes untracked files, and re-inits submodules
