@@ -142,7 +142,7 @@ We all make mistakes.
 Tips and Tricks
 ----
 
-`git checkout -- `git ls-files -m`` - Reset modified files in a directory
+``git checkout -- `git ls-files -m``` - Reset modified files in a directory
 
-`rm -rf `git ls-files --other --exclude-standard`` - Remove untracked files (use caution)
+``rm -rf `git ls-files --other --exclude-standard``` - Remove untracked files (use caution)
 
