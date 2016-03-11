@@ -138,3 +138,11 @@ We all make mistakes.
 `git reset <commit>` - Reset your HEAD pointer to a previous commit and preserve all changes as unstaged changes.
 
 `git reset --keep <commit>` - Reset your HEAD pointer to a previous commit and preserve uncommitted local changes.
+
+Tips and Tricks
+----
+
+`git checkout -- `git ls-files -m`` - Reset modified files in a directory
+
+`rm -rf `git ls-files --other --exclude-standard`` - Remove untracked files (use caution)
+
