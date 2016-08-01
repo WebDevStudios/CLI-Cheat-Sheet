@@ -151,4 +151,4 @@ Tips and Tricks
 The following snippet is handy if you're dealing with a monolithic repo with many branches and submodules:  
 ``git checkout <branch-name> && rm -rf `git ls-files --other --exclude-standard` && git submodule update --init --recursive`` - Reset-checkout.. checks out branch, removes untracked files, and re-inits submodules
 
-'git config --global core.editor "nano"' - Switch editor to nano. 
+`git config --global core.editor "nano"` - Switch editor to nano. 
