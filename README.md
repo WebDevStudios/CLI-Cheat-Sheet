@@ -10,3 +10,5 @@ Included in this repo are several files separated by command type. Look at the f
 * Moderate/Advanced Commands: [moderate-advanced-commands.md](https://github.com/WebDevStudios/CLI-Cheat-Sheet/blob/master/moderate-advanced-commands.md)
 
 If you see any incorrect information, please submit a PR, or even open an issue. Thanks!
+
+<a href="https://webdevstudios.com/contact/"><img src="https://webdevstudios.com/wp-content/uploads/2018/04/wds-github-banner.png" alt="WebDevStudios. WordPress for big brands."></a>
