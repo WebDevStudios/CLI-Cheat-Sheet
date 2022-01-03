@@ -129,6 +129,8 @@ We all make mistakes.
 
 `git reset --hard HEAD` - Discard all local changes in your working directory.
 
+`get checkout -f` - Discard all local changes in your working directory. (same behavior as `git reset --hard HEAD`)
+
 `git checkout HEAD <file-name>` - Discard local changes in a specific file.
 
 `git revert <commit>` - Revert a commit (by producing a new commit with contrary changes).
