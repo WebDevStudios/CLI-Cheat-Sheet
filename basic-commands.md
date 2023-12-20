@@ -95,3 +95,4 @@ More Resources
 
 * [Lifehacker overview](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 * [Treehouse tutorial](http://blog.teamtreehouse.com/command-line-basics)
+* [Command line cheat sheet](https://www.git-tower.com/learn/cheat-sheets/cli)
